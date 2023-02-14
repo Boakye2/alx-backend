@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 2-lifo_cache
+Lifo_cache
 """
 from base_caching import BaseCaching
 
@@ -33,3 +33,4 @@ class LIFOCache(BaseCaching):
         """
         value = self.cache_data.get(key)
         return value
+    
