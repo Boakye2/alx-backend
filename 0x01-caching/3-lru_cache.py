@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 3-lru_cache.py
+Lru_cache.py
 """
 from base_caching import BaseCaching
 
@@ -38,3 +38,4 @@ class LRUCache(BaseCaching):
             self.keys.append(key)
         value = self.cache_data.get(key)
         return value
+    
